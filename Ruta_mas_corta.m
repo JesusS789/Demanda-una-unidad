@@ -1,4 +1,9 @@
 %% Ruta mas corta
+% Referencias
+% https://la.mathworks.com/help/matlab/ref/view.html
+% https://la.mathworks.com/matlabcentral/answers/304832-how-to-enlarge-node-in-a-graph
+% https://la.mathworks.com/help/matlab/ref/digraph.html?searchHighlight=digraph&s_tid=srchtitle_digraph_1
+
 nodos=[0	1.00E-15	1.00E-15	1.00E-15	1.00E-15	1.00E-15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 0	0	0	0	0	0	43568.078463391	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 0	0	0	0	0	0	0	42975.351996400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -54,7 +59,7 @@ highlight(p,path1,'EdgeColor','g')
 
 path1
 d
-% Hasta aqui es necesario el codigo ya que muestra el camino mas corto
+% Hasta aqui es necesario el codigo ya que muestra el camino mas corto, el resto del codigo es una grafica que permite visualizar el camino más corto
 d=[];
 o=37 %para el inicio
 f=42 %para el final
